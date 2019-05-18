@@ -53,7 +53,7 @@ namespace Coursework
 
         private void MongoDBInteraction(string movieToSearch)
         {
-            var mongoClient = new MongoClient("mongodb+srv://kingl:Whey.0127@adb-lk-cluster-no3pl.mongodb.net/test?retryWrites=true");
+            var mongoClient = new MongoClient("mongodb+srv://kingl:REMOVEDPASSWORD@adb-lk-cluster-no3pl.mongodb.net/test?retryWrites=true");
             var mongoDataBase = mongoClient.GetDatabase("sample_mflix");
             var collection = mongoDataBase.GetCollection<Models.Model>("movies");
             var movieList = collection.AsQueryable().Where(model => model.title == movieToSearch);
