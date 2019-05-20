@@ -53,22 +53,27 @@
             this.label6 = new System.Windows.Forms.Label();
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.labelGenre = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(333, 40);
+            this.label1.Location = new System.Drawing.Point(333, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 41);
+            this.label1.Size = new System.Drawing.Size(102, 40);
             this.label1.TabIndex = 6;
             this.label1.Text = "TITLE";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -77,11 +82,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(333, 104);
+            this.label2.Location = new System.Drawing.Point(333, 86);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(155, 41);
+            this.label2.Size = new System.Drawing.Size(160, 40);
             this.label2.TabIndex = 7;
             this.label2.Text = "RUNTIME";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -90,11 +95,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(333, 170);
+            this.label3.Location = new System.Drawing.Point(333, 152);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 41);
+            this.label3.Size = new System.Drawing.Size(120, 40);
             this.label3.TabIndex = 8;
             this.label3.Text = "RATED";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -103,11 +108,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(333, 236);
+            this.label4.Location = new System.Drawing.Point(333, 282);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(205, 41);
+            this.label4.Size = new System.Drawing.Size(213, 40);
             this.label4.TabIndex = 9;
             this.label4.Text = "DIRECTOR/S";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -115,10 +120,11 @@
             // richTextBox1
             // 
             this.richTextBox1.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(568, 236);
+            this.richTextBox1.Location = new System.Drawing.Point(568, 282);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(435, 154);
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(435, 109);
             this.richTextBox1.TabIndex = 12;
             this.richTextBox1.Text = "";
             // 
@@ -268,7 +274,7 @@
             this.labelTitle.BackColor = System.Drawing.Color.Transparent;
             this.labelTitle.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitle.ForeColor = System.Drawing.Color.White;
-            this.labelTitle.Location = new System.Drawing.Point(561, 40);
+            this.labelTitle.Location = new System.Drawing.Point(561, 22);
             this.labelTitle.Name = "labelTitle";
             this.labelTitle.Size = new System.Drawing.Size(80, 41);
             this.labelTitle.TabIndex = 20;
@@ -281,7 +287,7 @@
             this.labelRating.BackColor = System.Drawing.Color.Transparent;
             this.labelRating.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRating.ForeColor = System.Drawing.Color.White;
-            this.labelRating.Location = new System.Drawing.Point(561, 170);
+            this.labelRating.Location = new System.Drawing.Point(561, 152);
             this.labelRating.Name = "labelRating";
             this.labelRating.Size = new System.Drawing.Size(105, 41);
             this.labelRating.TabIndex = 21;
@@ -294,7 +300,7 @@
             this.labelRuntime.BackColor = System.Drawing.Color.Transparent;
             this.labelRuntime.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRuntime.ForeColor = System.Drawing.Color.White;
-            this.labelRuntime.Location = new System.Drawing.Point(561, 104);
+            this.labelRuntime.Location = new System.Drawing.Point(561, 86);
             this.labelRuntime.Name = "labelRuntime";
             this.labelRuntime.Size = new System.Drawing.Size(141, 41);
             this.labelRuntime.TabIndex = 22;
@@ -307,6 +313,7 @@
             this.richTextBox2.Location = new System.Drawing.Point(568, 399);
             this.richTextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
             this.richTextBox2.Size = new System.Drawing.Size(435, 154);
             this.richTextBox2.TabIndex = 24;
             this.richTextBox2.Text = "";
@@ -315,11 +322,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(333, 399);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(190, 41);
+            this.label5.Size = new System.Drawing.Size(194, 40);
             this.label5.TabIndex = 23;
             this.label5.Text = "MAIN CAST";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -330,6 +337,7 @@
             this.richTextBox3.Location = new System.Drawing.Point(568, 561);
             this.richTextBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
             this.richTextBox3.Size = new System.Drawing.Size(435, 154);
             this.richTextBox3.TabIndex = 26;
             this.richTextBox3.Text = "";
@@ -338,11 +346,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(333, 561);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(98, 41);
+            this.label6.Size = new System.Drawing.Size(100, 40);
             this.label6.TabIndex = 25;
             this.label6.Text = "PLOT";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -353,6 +361,7 @@
             this.richTextBox4.Location = new System.Drawing.Point(568, 719);
             this.richTextBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.ReadOnly = true;
             this.richTextBox4.Size = new System.Drawing.Size(435, 154);
             this.richTextBox4.TabIndex = 28;
             this.richTextBox4.Text = "";
@@ -361,14 +370,64 @@
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(333, 719);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(152, 41);
+            this.label8.Size = new System.Drawing.Size(156, 40);
             this.label8.TabIndex = 27;
             this.label8.Text = "RATINGS";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelGenre
+            // 
+            this.labelGenre.AutoSize = true;
+            this.labelGenre.BackColor = System.Drawing.Color.Transparent;
+            this.labelGenre.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelGenre.ForeColor = System.Drawing.Color.White;
+            this.labelGenre.Location = new System.Drawing.Point(561, 216);
+            this.labelGenre.Name = "labelGenre";
+            this.labelGenre.Size = new System.Drawing.Size(113, 41);
+            this.labelGenre.TabIndex = 30;
+            this.labelGenre.Text = "Genre";
+            this.labelGenre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(333, 216);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(125, 40);
+            this.label10.TabIndex = 29;
+            this.label10.Text = "GENRE";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Location = new System.Drawing.Point(312, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(707, 889);
+            this.panel1.TabIndex = 31;
+            this.panel1.Visible = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(133, 275);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(466, 200);
+            this.label9.TabIndex = 7;
+            this.label9.Text = "Sorry, I couldn\'t find anything\r\nbased on your search. \r\n\r\nPlease select \"Home\" a" +
+    "nd\r\ntry a different film to search.";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ResultsViewer
             // 
@@ -378,6 +437,9 @@
             this.BackColor = System.Drawing.Color.SlateGray;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1017, 892);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.labelGenre);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.richTextBox4);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.richTextBox3);
@@ -404,6 +466,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -435,5 +499,9 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.RichTextBox richTextBox4;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label labelGenre;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label9;
     }
 }

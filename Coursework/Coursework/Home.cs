@@ -12,8 +12,6 @@ namespace Coursework
 {
     public partial class Home : Form
     {
-        private string movieToSearch;
-
         public Home()
         {
             InitializeComponent();
@@ -21,9 +19,21 @@ namespace Coursework
 
         private void Button5_Click(object sender, EventArgs e)
         {
-            if (String.IsNullOrWhiteSpace(textBox1.Text)) movieToSearch = textBox1.Text;
-            ResultsViewer results = new ResultsViewer(movieToSearch);
-            results.Show();
+            SearchByTitle searchByTitle = new SearchByTitle();
+            searchByTitle.Show();
+            this.Hide();
+        }
+
+        private void Button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ToDo");
+        }
+
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            ResultsViewer resultsViewer = new ResultsViewer();
+            resultsViewer.SearchRandomMovie();
+            resultsViewer.Show();
             this.Hide();
         }
 
@@ -33,24 +43,12 @@ namespace Coursework
             about.Show(); this.Hide();
         }
 
-        private void Button3_Click(object sender, EventArgs e) { MessageBox.Show("Please either enter a movie title to search for, or select an example movie. Please put the exact title, otherwise it may not find the movie you wanted."); }
+        private void Button3_Click(object sender, EventArgs e) { MessageBox.Show("Please select one of the options to begin!"); }
 
         private void Button4_Click(object sender, EventArgs e)
         {
             DialogResult = MessageBox.Show("Are you sure you want to exit?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (DialogResult == DialogResult.Yes) Application.Exit();
-        }
-
-        private void PictureBox6_Click(object sender, EventArgs e)
-        {
-            movieToSearch = "The Avengers";
-            Button5_Click(sender, e);
-        }
-
-        private void PictureBox7_Click(object sender, EventArgs e)
-        {
-            movieToSearch = "John Wick";
-            Button5_Click(sender, e);
         }
     }
 }
