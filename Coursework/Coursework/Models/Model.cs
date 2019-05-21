@@ -35,7 +35,7 @@ namespace Coursework.Models
     [BsonIgnoreExtraElements]
     class IMDB
     {
-        public dynamic rating = 0.0, votes = 0;
+        public double rating = 0.0; public int votes = 0;
         public int id = 0;
     }
 

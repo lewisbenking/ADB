@@ -12,6 +12,10 @@ namespace Coursework
 {
     public partial class Home : Form
     {
+        private About about;
+        private ResultsViewer resultsViewer;
+        private SearchByTitle searchByTitle;
+
         public Home()
         {
             InitializeComponent();
@@ -19,19 +23,22 @@ namespace Coursework
 
         private void Button5_Click(object sender, EventArgs e)
         {
-            SearchByTitle searchByTitle = new SearchByTitle();
+            searchByTitle = new SearchByTitle();
             searchByTitle.Show();
             this.Hide();
         }
 
         private void Button6_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("ToDo");
+            resultsViewer = new ResultsViewer();
+            resultsViewer.SearchTopRated();
+            resultsViewer.Show();
+            this.Hide();            
         }
 
         private void Button7_Click(object sender, EventArgs e)
         {
-            ResultsViewer resultsViewer = new ResultsViewer();
+            resultsViewer = new ResultsViewer();
             resultsViewer.SearchRandomMovie();
             resultsViewer.Show();
             this.Hide();
@@ -39,7 +46,7 @@ namespace Coursework
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            About about = new About();
+            about = new About();
             about.Show(); this.Hide();
         }
 

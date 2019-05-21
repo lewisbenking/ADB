@@ -57,12 +57,35 @@
             this.label10 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.labelRT3 = new System.Windows.Forms.Label();
+            this.labelRT2 = new System.Windows.Forms.Label();
+            this.labelRT1 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.labelMetacritic3 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.labelMetacritic2 = new System.Windows.Forms.Label();
+            this.labelMetacritic1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.labelIMDB3 = new System.Windows.Forms.Label();
+            this.labelIMDB2 = new System.Windows.Forms.Label();
+            this.labelIMDB1 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panel6.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -99,9 +122,9 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(333, 152);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 40);
+            this.label3.Size = new System.Drawing.Size(211, 40);
             this.label3.TabIndex = 8;
-            this.label3.Text = "RATED";
+            this.label3.Text = "AGE RATING";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
@@ -409,7 +432,7 @@
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.Controls.Add(this.label9);
-            this.panel1.Location = new System.Drawing.Point(312, 0);
+            this.panel1.Location = new System.Drawing.Point(310, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(707, 889);
             this.panel1.TabIndex = 31;
@@ -429,6 +452,230 @@
     "nd\r\ntry a different film to search.";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // panel2
+            // 
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.label14);
+            this.panel2.Controls.Add(this.pictureBox5);
+            this.panel2.Controls.Add(this.panel6);
+            this.panel2.Controls.Add(this.panel5);
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Location = new System.Drawing.Point(310, 2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(707, 889);
+            this.panel2.TabIndex = 32;
+            this.panel2.Visible = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(0, 4);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(707, 139);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 2;
+            this.pictureBox5.TabStop = false;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.labelRT3);
+            this.panel6.Controls.Add(this.labelRT2);
+            this.panel6.Controls.Add(this.labelRT1);
+            this.panel6.Controls.Add(this.label13);
+            this.panel6.Location = new System.Drawing.Point(32, 694);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(652, 183);
+            this.panel6.TabIndex = 1;
+            // 
+            // labelRT3
+            // 
+            this.labelRT3.AutoSize = true;
+            this.labelRT3.BackColor = System.Drawing.Color.Transparent;
+            this.labelRT3.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRT3.ForeColor = System.Drawing.Color.White;
+            this.labelRT3.Location = new System.Drawing.Point(4, 143);
+            this.labelRT3.Name = "labelRT3";
+            this.labelRT3.Size = new System.Drawing.Size(358, 35);
+            this.labelRT3.TabIndex = 5;
+            this.labelRT3.Text = "Rotten Tomatoes Top Rated";
+            this.labelRT3.Click += new System.EventHandler(this.LabelRT3_Click);
+            // 
+            // labelRT2
+            // 
+            this.labelRT2.AutoSize = true;
+            this.labelRT2.BackColor = System.Drawing.Color.Transparent;
+            this.labelRT2.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRT2.ForeColor = System.Drawing.Color.White;
+            this.labelRT2.Location = new System.Drawing.Point(4, 96);
+            this.labelRT2.Name = "labelRT2";
+            this.labelRT2.Size = new System.Drawing.Size(358, 35);
+            this.labelRT2.TabIndex = 4;
+            this.labelRT2.Text = "Rotten Tomatoes Top Rated";
+            this.labelRT2.Click += new System.EventHandler(this.LabelRT2_Click);
+            // 
+            // labelRT1
+            // 
+            this.labelRT1.AutoSize = true;
+            this.labelRT1.BackColor = System.Drawing.Color.Transparent;
+            this.labelRT1.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRT1.ForeColor = System.Drawing.Color.White;
+            this.labelRT1.Location = new System.Drawing.Point(4, 50);
+            this.labelRT1.Name = "labelRT1";
+            this.labelRT1.Size = new System.Drawing.Size(358, 35);
+            this.labelRT1.TabIndex = 3;
+            this.labelRT1.Text = "Rotten Tomatoes Top Rated";
+            this.labelRT1.Click += new System.EventHandler(this.LabelRT1_Click);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(3, 5);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(432, 40);
+            this.label13.TabIndex = 2;
+            this.label13.Text = "Rotten Tomatoes Top Rated";
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.labelMetacritic3);
+            this.panel5.Controls.Add(this.label12);
+            this.panel5.Controls.Add(this.labelMetacritic2);
+            this.panel5.Controls.Add(this.labelMetacritic1);
+            this.panel5.Location = new System.Drawing.Point(32, 491);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(652, 178);
+            this.panel5.TabIndex = 1;
+            // 
+            // labelMetacritic3
+            // 
+            this.labelMetacritic3.AutoSize = true;
+            this.labelMetacritic3.BackColor = System.Drawing.Color.Transparent;
+            this.labelMetacritic3.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMetacritic3.ForeColor = System.Drawing.Color.White;
+            this.labelMetacritic3.Location = new System.Drawing.Point(4, 139);
+            this.labelMetacritic3.Name = "labelMetacritic3";
+            this.labelMetacritic3.Size = new System.Drawing.Size(273, 35);
+            this.labelMetacritic3.TabIndex = 11;
+            this.labelMetacritic3.Text = "Metacritic Top Rated";
+            this.labelMetacritic3.Click += new System.EventHandler(this.LabelMetacritic3_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(3, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(335, 40);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "Metacritic Top Rated";
+            // 
+            // labelMetacritic2
+            // 
+            this.labelMetacritic2.AutoSize = true;
+            this.labelMetacritic2.BackColor = System.Drawing.Color.Transparent;
+            this.labelMetacritic2.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMetacritic2.ForeColor = System.Drawing.Color.White;
+            this.labelMetacritic2.Location = new System.Drawing.Point(4, 92);
+            this.labelMetacritic2.Name = "labelMetacritic2";
+            this.labelMetacritic2.Size = new System.Drawing.Size(273, 35);
+            this.labelMetacritic2.TabIndex = 10;
+            this.labelMetacritic2.Text = "Metacritic Top Rated";
+            this.labelMetacritic2.Click += new System.EventHandler(this.LabelMetacritic2_Click);
+            // 
+            // labelMetacritic1
+            // 
+            this.labelMetacritic1.AutoSize = true;
+            this.labelMetacritic1.BackColor = System.Drawing.Color.Transparent;
+            this.labelMetacritic1.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMetacritic1.ForeColor = System.Drawing.Color.White;
+            this.labelMetacritic1.Location = new System.Drawing.Point(4, 46);
+            this.labelMetacritic1.Name = "labelMetacritic1";
+            this.labelMetacritic1.Size = new System.Drawing.Size(273, 35);
+            this.labelMetacritic1.TabIndex = 9;
+            this.labelMetacritic1.Text = "Metacritic Top Rated";
+            this.labelMetacritic1.Click += new System.EventHandler(this.LabelMetacritic1_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.labelIMDB3);
+            this.panel3.Controls.Add(this.labelIMDB2);
+            this.panel3.Controls.Add(this.labelIMDB1);
+            this.panel3.Controls.Add(this.label11);
+            this.panel3.Location = new System.Drawing.Point(32, 278);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(652, 182);
+            this.panel3.TabIndex = 0;
+            // 
+            // labelIMDB3
+            // 
+            this.labelIMDB3.AutoSize = true;
+            this.labelIMDB3.BackColor = System.Drawing.Color.Transparent;
+            this.labelIMDB3.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIMDB3.ForeColor = System.Drawing.Color.White;
+            this.labelIMDB3.Location = new System.Drawing.Point(4, 140);
+            this.labelIMDB3.Name = "labelIMDB3";
+            this.labelIMDB3.Size = new System.Drawing.Size(214, 35);
+            this.labelIMDB3.TabIndex = 8;
+            this.labelIMDB3.Text = "IMDB Top Rated";
+            this.labelIMDB3.Click += new System.EventHandler(this.LabelIMDB3_Click);
+            // 
+            // labelIMDB2
+            // 
+            this.labelIMDB2.AutoSize = true;
+            this.labelIMDB2.BackColor = System.Drawing.Color.Transparent;
+            this.labelIMDB2.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIMDB2.ForeColor = System.Drawing.Color.White;
+            this.labelIMDB2.Location = new System.Drawing.Point(4, 93);
+            this.labelIMDB2.Name = "labelIMDB2";
+            this.labelIMDB2.Size = new System.Drawing.Size(214, 35);
+            this.labelIMDB2.TabIndex = 7;
+            this.labelIMDB2.Text = "IMDB Top Rated";
+            this.labelIMDB2.Click += new System.EventHandler(this.LabelIMDB2_Click);
+            // 
+            // labelIMDB1
+            // 
+            this.labelIMDB1.AutoSize = true;
+            this.labelIMDB1.BackColor = System.Drawing.Color.Transparent;
+            this.labelIMDB1.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIMDB1.ForeColor = System.Drawing.Color.White;
+            this.labelIMDB1.Location = new System.Drawing.Point(4, 47);
+            this.labelIMDB1.Name = "labelIMDB1";
+            this.labelIMDB1.Size = new System.Drawing.Size(214, 35);
+            this.labelIMDB1.TabIndex = 6;
+            this.labelIMDB1.Text = "IMDB Top Rated";
+            this.labelIMDB1.Click += new System.EventHandler(this.LabelIMDB1_Click);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(3, 1);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(259, 40);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "IMDB Top Rated";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(75, 191);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(566, 40);
+            this.label14.TabIndex = 9;
+            this.label14.Text = "Select a movie to view more details!";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // ResultsViewer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -437,6 +684,7 @@
             this.BackColor = System.Drawing.Color.SlateGray;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1017, 892);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.labelGenre);
             this.Controls.Add(this.label10);
@@ -468,6 +716,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -503,5 +760,23 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label labelRT3;
+        private System.Windows.Forms.Label labelRT2;
+        private System.Windows.Forms.Label labelRT1;
+        private System.Windows.Forms.Label labelMetacritic3;
+        private System.Windows.Forms.Label labelMetacritic2;
+        private System.Windows.Forms.Label labelMetacritic1;
+        private System.Windows.Forms.Label labelIMDB3;
+        private System.Windows.Forms.Label labelIMDB2;
+        private System.Windows.Forms.Label labelIMDB1;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label label14;
     }
 }

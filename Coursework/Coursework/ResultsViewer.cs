@@ -25,7 +25,7 @@ namespace Coursework
 
         private void MongoDBConfiguration()
         {
-            mongoClient = new MongoClient("mongodb+srv://kingl:Whey.0127@adb-lk-cluster-no3pl.mongodb.net/test?retryWrites=true");
+            mongoClient = new MongoClient("mongodb+srv://kingl:jF3QaPw9KYDh17xu@adb-lk-cluster-no3pl.mongodb.net/test?retryWrites=true");
             mongoDatabase = mongoClient.GetDatabase("sample_mflix");
             collection = mongoDatabase.GetCollection<Models.Model>("movies");
         }
@@ -64,17 +64,45 @@ namespace Coursework
         public void SearchByTitle(string movieToSearch)
         {
             movieList = collection.AsQueryable().Where(model => model.title.ToLower() == movieToSearch.ToLower());
-            HandleMongoDBResponse(movieList);
+            SingleMovieHandler(movieList);
         }
 
         public void SearchRandomMovie()
         {
             movieList = collection.AsQueryable().Sample(1);
-            HandleMongoDBResponse(movieList);
+            SingleMovieHandler(movieList);
         }
 
-        private void HandleMongoDBResponse(IMongoQueryable<Models.Model> movieList)
+        public void SearchTopRated()
         {
+            panel2.Show();
+            var imdbTopRated = (from item in collection.AsQueryable() where item.imdb.rating >= 8.0 orderby item.imdb.rating descending select item).Take(3);
+            var metacriticTopRated = (from item in collection.AsQueryable() where item.metacritic >= 80 orderby item.metacritic descending select item).Take(3);
+            var rottenTomatoesTopRated = (from item in collection.AsQueryable() where item.tomatoes.critic.meter >= 80 && item.tomatoes.viewer.meter >= 80 orderby item.tomatoes.viewer.rating descending select item).Take(3);
+            TopRatedHandler(imdbTopRated, metacriticTopRated, rottenTomatoesTopRated);
+        }
+
+        private void TopRatedHandler(IMongoQueryable<Models.Model> imdb, IMongoQueryable<Models.Model> metacritic, IMongoQueryable<Models.Model> rottenTomatoes)
+        {
+            var imdbList = imdb.ToList();
+            labelIMDB1.Text = imdbList[0].title.ToString();
+            labelIMDB2.Text = imdbList[1].title.ToString();
+            labelIMDB3.Text = imdbList[2].title.ToString();
+
+            var metacriticList = metacritic.ToList();
+            labelMetacritic1.Text = metacriticList[0].title.ToString();
+            labelMetacritic2.Text = metacriticList[1].title.ToString();
+            labelMetacritic3.Text = metacriticList[2].title.ToString();
+
+            var rtList = rottenTomatoes.ToList();
+            labelRT1.Text = rtList[0].title.ToString();
+            labelRT2.Text = rtList[1].title.ToString();
+            labelRT3.Text = rtList[2].title.ToString();
+        }
+
+        private void SingleMovieHandler(IMongoQueryable<Models.Model> movieList)
+        {
+            panel2.Visible = false;
             if (movieList.Count() == 0)
             {
                 panel1.Visible = true;
@@ -117,5 +145,17 @@ namespace Coursework
                 }
             }
         }
+
+        private void LabelIMDB1_Click(object sender, EventArgs e) { SearchByTitle(labelIMDB1.Text); }
+        private void LabelIMDB2_Click(object sender, EventArgs e) { SearchByTitle(labelIMDB2.Text); }
+        private void LabelIMDB3_Click(object sender, EventArgs e) { SearchByTitle(labelIMDB3.Text); }
+
+        private void LabelMetacritic1_Click(object sender, EventArgs e) { SearchByTitle(labelMetacritic1.Text); }
+        private void LabelMetacritic2_Click(object sender, EventArgs e) { SearchByTitle(labelMetacritic2.Text); }
+        private void LabelMetacritic3_Click(object sender, EventArgs e) { SearchByTitle(labelMetacritic3.Text); }
+
+        private void LabelRT1_Click(object sender, EventArgs e) { SearchByTitle(labelRT1.Text); }
+        private void LabelRT2_Click(object sender, EventArgs e) { SearchByTitle(labelRT2.Text); }
+        private void LabelRT3_Click(object sender, EventArgs e) { SearchByTitle(labelRT3.Text); }
     }
 }

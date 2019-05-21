@@ -192,7 +192,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(338, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(638, 798);
+            this.label1.Size = new System.Drawing.Size(638, 836);
             this.label1.TabIndex = 20;
             this.label1.Text = resources.GetString("label1.Text");
             // 
@@ -200,8 +200,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.SlateGray;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1017, 892);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel4);

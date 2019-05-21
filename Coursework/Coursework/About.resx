@@ -1197,7 +1197,8 @@ a file to view again later on if they wish.
 
 The dataset is stored on a document store 
 in MongoDB, and the dataset contains 
-25,000 documents.
+25,000 documents. The dataset does not
+contain any movies beyond 2015/2016.
 
 
 Created By:             Lewis King
