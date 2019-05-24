@@ -15,10 +15,25 @@ namespace Coursework
         private About about;
         private ResultsViewer resultsViewer;
         private SearchByTitle searchByTitle;
+        private SearchForActor searchForActor;
 
         public Home()
         {
             InitializeComponent();
+        }       
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            about = new About();
+            about.Show(); this.Hide();
+        }
+
+        private void Button3_Click(object sender, EventArgs e) { MessageBox.Show("Please select one of the options to begin!"); }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            DialogResult = MessageBox.Show("Are you sure you want to exit?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (DialogResult == DialogResult.Yes) Application.Exit();
         }
 
         private void Button5_Click(object sender, EventArgs e)
@@ -33,7 +48,7 @@ namespace Coursework
             resultsViewer = new ResultsViewer();
             resultsViewer.SearchTopRated();
             resultsViewer.Show();
-            this.Hide();            
+            this.Hide();
         }
 
         private void Button7_Click(object sender, EventArgs e)
@@ -44,18 +59,11 @@ namespace Coursework
             this.Hide();
         }
 
-        private void Button2_Click(object sender, EventArgs e)
+        private void Button8_Click(object sender, EventArgs e)
         {
-            about = new About();
-            about.Show(); this.Hide();
-        }
-
-        private void Button3_Click(object sender, EventArgs e) { MessageBox.Show("Please select one of the options to begin!"); }
-
-        private void Button4_Click(object sender, EventArgs e)
-        {
-            DialogResult = MessageBox.Show("Are you sure you want to exit?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-            if (DialogResult == DialogResult.Yes) Application.Exit();
+            searchForActor = new SearchForActor();
+            searchForActor.Show();
+            this.Hide();
         }
     }
 }

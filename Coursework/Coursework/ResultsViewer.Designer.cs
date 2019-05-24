@@ -57,35 +57,100 @@
             this.label10 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label30 = new System.Windows.Forms.Label();
+            this.labelFilmMatch5Year = new System.Windows.Forms.Label();
+            this.labelFilmMatch4Year = new System.Windows.Forms.Label();
+            this.labelFilmMatch3Year = new System.Windows.Forms.Label();
+            this.labelFilmMatch1Year = new System.Windows.Forms.Label();
+            this.labelFilmMatch2Year = new System.Windows.Forms.Label();
+            this.labelFilmMatch5 = new System.Windows.Forms.Label();
+            this.labelFilmMatch4 = new System.Windows.Forms.Label();
+            this.labelYourInput = new System.Windows.Forms.Label();
+            this.labelFilmMatch3 = new System.Windows.Forms.Label();
+            this.labelFilmMatch1 = new System.Windows.Forms.Label();
+            this.labelFilmMatch2 = new System.Windows.Forms.Label();
+            this.labelActorFilm5Year = new System.Windows.Forms.Label();
+            this.labelActorFilm4Year = new System.Windows.Forms.Label();
+            this.labelActorFilm3Year = new System.Windows.Forms.Label();
+            this.labelActorFilm1Year = new System.Windows.Forms.Label();
+            this.labelActorFilm2Year = new System.Windows.Forms.Label();
+            this.labelActorFilm5 = new System.Windows.Forms.Label();
+            this.labelActorFilm4 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.labelActorName = new System.Windows.Forms.Label();
+            this.labelActorFilm3 = new System.Windows.Forms.Label();
+            this.labelActorFilm1 = new System.Windows.Forms.Label();
+            this.labelActorFilm2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.labelRTRating3 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.labelRTRating2 = new System.Windows.Forms.Label();
+            this.labelRTRating1 = new System.Windows.Forms.Label();
             this.labelRT3 = new System.Windows.Forms.Label();
             this.labelRT2 = new System.Windows.Forms.Label();
             this.labelRT1 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.labelMetacriticRating3 = new System.Windows.Forms.Label();
+            this.labelMetacriticRating2 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.labelMetacriticRating1 = new System.Windows.Forms.Label();
             this.labelMetacritic3 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.labelMetacritic2 = new System.Windows.Forms.Label();
             this.labelMetacritic1 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.labelIMDB3Rating = new System.Windows.Forms.Label();
+            this.labelIMDB2Rating = new System.Windows.Forms.Label();
+            this.labelIMDB1Rating = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.labelIMDB3 = new System.Windows.Forms.Label();
             this.labelIMDB2 = new System.Windows.Forms.Label();
             this.labelIMDB1 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
+            this.labelYear = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.labelFilm1IMDBRating = new System.Windows.Forms.Label();
+            this.labelFilm1IMDB = new System.Windows.Forms.Label();
+            this.labelFilm2IMDBRating = new System.Windows.Forms.Label();
+            this.labelFilm2IMDB = new System.Windows.Forms.Label();
+            this.labelFilm3IMDBRating = new System.Windows.Forms.Label();
+            this.labelFilm3IMDB = new System.Windows.Forms.Label();
+            this.labelFilm3MCRating = new System.Windows.Forms.Label();
+            this.labelFilm3MC = new System.Windows.Forms.Label();
+            this.labelFilm2MCRating = new System.Windows.Forms.Label();
+            this.labelFilm2MC = new System.Windows.Forms.Label();
+            this.labelFilm1MCRating = new System.Windows.Forms.Label();
+            this.labelFilm1MC = new System.Windows.Forms.Label();
+            this.labelFilm3RTRating = new System.Windows.Forms.Label();
+            this.labelFilm3RT = new System.Windows.Forms.Label();
+            this.labelFilm2RTRating = new System.Windows.Forms.Label();
+            this.labelFilm2RT = new System.Windows.Forms.Label();
+            this.labelFilm1RTRating = new System.Windows.Forms.Label();
+            this.labelFilm1RT = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel6.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -133,7 +198,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(333, 282);
+            this.label4.Location = new System.Drawing.Point(333, 345);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(213, 40);
             this.label4.TabIndex = 9;
@@ -142,12 +207,12 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(568, 282);
+            this.richTextBox1.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Location = new System.Drawing.Point(568, 345);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(435, 109);
+            this.richTextBox1.Size = new System.Drawing.Size(435, 97);
             this.richTextBox1.TabIndex = 12;
             this.richTextBox1.Text = "";
             // 
@@ -332,12 +397,12 @@
             // 
             // richTextBox2
             // 
-            this.richTextBox2.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox2.Location = new System.Drawing.Point(568, 399);
+            this.richTextBox2.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox2.Location = new System.Drawing.Point(568, 450);
             this.richTextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.Size = new System.Drawing.Size(435, 154);
+            this.richTextBox2.Size = new System.Drawing.Size(435, 103);
             this.richTextBox2.TabIndex = 24;
             this.richTextBox2.Text = "";
             // 
@@ -347,7 +412,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(333, 399);
+            this.label5.Location = new System.Drawing.Point(333, 450);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(194, 40);
             this.label5.TabIndex = 23;
@@ -356,7 +421,7 @@
             // 
             // richTextBox3
             // 
-            this.richTextBox3.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox3.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox3.Location = new System.Drawing.Point(568, 561);
             this.richTextBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.richTextBox3.Name = "richTextBox3";
@@ -380,12 +445,12 @@
             // 
             // richTextBox4
             // 
-            this.richTextBox4.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox4.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox4.Location = new System.Drawing.Point(568, 719);
             this.richTextBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.ReadOnly = true;
-            this.richTextBox4.Size = new System.Drawing.Size(435, 154);
+            this.richTextBox4.Size = new System.Drawing.Size(435, 111);
             this.richTextBox4.TabIndex = 28;
             this.richTextBox4.Text = "";
             // 
@@ -432,7 +497,7 @@
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.Controls.Add(this.label9);
-            this.panel1.Location = new System.Drawing.Point(310, 0);
+            this.panel1.Location = new System.Drawing.Point(315, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(707, 889);
             this.panel1.TabIndex = 31;
@@ -446,11 +511,385 @@
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(133, 275);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(466, 200);
+            this.label9.Size = new System.Drawing.Size(476, 200);
             this.label9.TabIndex = 7;
             this.label9.Text = "Sorry, I couldn\'t find anything\r\nbased on your search. \r\n\r\nPlease select \"Home\" a" +
-    "nd\r\ntry a different film to search.";
+    "nd\r\ntry a different value to search.";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel7
+            // 
+            this.panel7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel7.BackgroundImage")));
+            this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel7.Controls.Add(this.panel8);
+            this.panel7.Controls.Add(this.labelActorFilm5Year);
+            this.panel7.Controls.Add(this.labelActorFilm4Year);
+            this.panel7.Controls.Add(this.labelActorFilm3Year);
+            this.panel7.Controls.Add(this.labelActorFilm1Year);
+            this.panel7.Controls.Add(this.labelActorFilm2Year);
+            this.panel7.Controls.Add(this.labelActorFilm5);
+            this.panel7.Controls.Add(this.labelActorFilm4);
+            this.panel7.Controls.Add(this.label18);
+            this.panel7.Controls.Add(this.pictureBox6);
+            this.panel7.Controls.Add(this.labelActorName);
+            this.panel7.Controls.Add(this.labelActorFilm3);
+            this.panel7.Controls.Add(this.labelActorFilm1);
+            this.panel7.Controls.Add(this.labelActorFilm2);
+            this.panel7.Location = new System.Drawing.Point(312, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(707, 889);
+            this.panel7.TabIndex = 33;
+            // 
+            // panel8
+            // 
+            this.panel8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel8.BackgroundImage")));
+            this.panel8.Controls.Add(this.label30);
+            this.panel8.Controls.Add(this.labelFilmMatch5Year);
+            this.panel8.Controls.Add(this.labelFilmMatch4Year);
+            this.panel8.Controls.Add(this.labelFilmMatch3Year);
+            this.panel8.Controls.Add(this.labelFilmMatch1Year);
+            this.panel8.Controls.Add(this.labelFilmMatch2Year);
+            this.panel8.Controls.Add(this.labelFilmMatch5);
+            this.panel8.Controls.Add(this.labelFilmMatch4);
+            this.panel8.Controls.Add(this.labelYourInput);
+            this.panel8.Controls.Add(this.labelFilmMatch3);
+            this.panel8.Controls.Add(this.labelFilmMatch1);
+            this.panel8.Controls.Add(this.labelFilmMatch2);
+            this.panel8.Location = new System.Drawing.Point(-1, 3);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(710, 886);
+            this.panel8.TabIndex = 34;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.Transparent;
+            this.label30.Font = new System.Drawing.Font("Google Sans", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.White;
+            this.label30.Location = new System.Drawing.Point(22, 17);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(659, 225);
+            this.label30.TabIndex = 28;
+            this.label30.Text = "We\'ve found more than one match,\r\nbut only have room to display up to \r\n5 matches" +
+    ". Please select the one that\r\nis appropriate, or be more specific \r\nwith your se" +
+    "arch!";
+            // 
+            // labelFilmMatch5Year
+            // 
+            this.labelFilmMatch5Year.AutoSize = true;
+            this.labelFilmMatch5Year.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilmMatch5Year.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilmMatch5Year.ForeColor = System.Drawing.Color.White;
+            this.labelFilmMatch5Year.Location = new System.Drawing.Point(73, 783);
+            this.labelFilmMatch5Year.Name = "labelFilmMatch5Year";
+            this.labelFilmMatch5Year.Size = new System.Drawing.Size(70, 35);
+            this.labelFilmMatch5Year.TabIndex = 27;
+            this.labelFilmMatch5Year.Text = "Year";
+            this.labelFilmMatch5Year.Visible = false;
+            // 
+            // labelFilmMatch4Year
+            // 
+            this.labelFilmMatch4Year.AutoSize = true;
+            this.labelFilmMatch4Year.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilmMatch4Year.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilmMatch4Year.ForeColor = System.Drawing.Color.White;
+            this.labelFilmMatch4Year.Location = new System.Drawing.Point(73, 692);
+            this.labelFilmMatch4Year.Name = "labelFilmMatch4Year";
+            this.labelFilmMatch4Year.Size = new System.Drawing.Size(70, 35);
+            this.labelFilmMatch4Year.TabIndex = 26;
+            this.labelFilmMatch4Year.Text = "Year";
+            this.labelFilmMatch4Year.Visible = false;
+            // 
+            // labelFilmMatch3Year
+            // 
+            this.labelFilmMatch3Year.AutoSize = true;
+            this.labelFilmMatch3Year.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilmMatch3Year.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilmMatch3Year.ForeColor = System.Drawing.Color.White;
+            this.labelFilmMatch3Year.Location = new System.Drawing.Point(73, 597);
+            this.labelFilmMatch3Year.Name = "labelFilmMatch3Year";
+            this.labelFilmMatch3Year.Size = new System.Drawing.Size(70, 35);
+            this.labelFilmMatch3Year.TabIndex = 25;
+            this.labelFilmMatch3Year.Text = "Year";
+            this.labelFilmMatch3Year.Visible = false;
+            // 
+            // labelFilmMatch1Year
+            // 
+            this.labelFilmMatch1Year.AutoSize = true;
+            this.labelFilmMatch1Year.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilmMatch1Year.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilmMatch1Year.ForeColor = System.Drawing.Color.White;
+            this.labelFilmMatch1Year.Location = new System.Drawing.Point(73, 408);
+            this.labelFilmMatch1Year.Name = "labelFilmMatch1Year";
+            this.labelFilmMatch1Year.Size = new System.Drawing.Size(70, 35);
+            this.labelFilmMatch1Year.TabIndex = 23;
+            this.labelFilmMatch1Year.Text = "Year";
+            this.labelFilmMatch1Year.Visible = false;
+            // 
+            // labelFilmMatch2Year
+            // 
+            this.labelFilmMatch2Year.AutoSize = true;
+            this.labelFilmMatch2Year.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilmMatch2Year.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilmMatch2Year.ForeColor = System.Drawing.Color.White;
+            this.labelFilmMatch2Year.Location = new System.Drawing.Point(73, 502);
+            this.labelFilmMatch2Year.Name = "labelFilmMatch2Year";
+            this.labelFilmMatch2Year.Size = new System.Drawing.Size(70, 35);
+            this.labelFilmMatch2Year.TabIndex = 24;
+            this.labelFilmMatch2Year.Text = "Year";
+            this.labelFilmMatch2Year.Visible = false;
+            // 
+            // labelFilmMatch5
+            // 
+            this.labelFilmMatch5.AutoSize = true;
+            this.labelFilmMatch5.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilmMatch5.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilmMatch5.ForeColor = System.Drawing.Color.White;
+            this.labelFilmMatch5.Location = new System.Drawing.Point(73, 748);
+            this.labelFilmMatch5.Name = "labelFilmMatch5";
+            this.labelFilmMatch5.Size = new System.Drawing.Size(123, 35);
+            this.labelFilmMatch5.TabIndex = 22;
+            this.labelFilmMatch5.Text = "Film Title";
+            this.labelFilmMatch5.Visible = false;
+            this.labelFilmMatch5.Click += new System.EventHandler(this.LabelFilmMatch5_Click);
+            // 
+            // labelFilmMatch4
+            // 
+            this.labelFilmMatch4.AutoSize = true;
+            this.labelFilmMatch4.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilmMatch4.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilmMatch4.ForeColor = System.Drawing.Color.White;
+            this.labelFilmMatch4.Location = new System.Drawing.Point(73, 657);
+            this.labelFilmMatch4.Name = "labelFilmMatch4";
+            this.labelFilmMatch4.Size = new System.Drawing.Size(123, 35);
+            this.labelFilmMatch4.TabIndex = 21;
+            this.labelFilmMatch4.Text = "Film Title";
+            this.labelFilmMatch4.Visible = false;
+            this.labelFilmMatch4.Click += new System.EventHandler(this.LabelFilmMatch4_Click);
+            // 
+            // labelYourInput
+            // 
+            this.labelYourInput.AutoSize = true;
+            this.labelYourInput.BackColor = System.Drawing.Color.Transparent;
+            this.labelYourInput.Font = new System.Drawing.Font("Google Sans", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelYourInput.ForeColor = System.Drawing.Color.White;
+            this.labelYourInput.Location = new System.Drawing.Point(71, 315);
+            this.labelYourInput.Name = "labelYourInput";
+            this.labelYourInput.Size = new System.Drawing.Size(529, 45);
+            this.labelYourInput.TabIndex = 17;
+            this.labelYourInput.Text = "Matches based on your input:";
+            // 
+            // labelFilmMatch3
+            // 
+            this.labelFilmMatch3.AutoSize = true;
+            this.labelFilmMatch3.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilmMatch3.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilmMatch3.ForeColor = System.Drawing.Color.White;
+            this.labelFilmMatch3.Location = new System.Drawing.Point(73, 562);
+            this.labelFilmMatch3.Name = "labelFilmMatch3";
+            this.labelFilmMatch3.Size = new System.Drawing.Size(123, 35);
+            this.labelFilmMatch3.TabIndex = 20;
+            this.labelFilmMatch3.Text = "Film Title";
+            this.labelFilmMatch3.Visible = false;
+            this.labelFilmMatch3.Click += new System.EventHandler(this.LabelFilmMatch3_Click);
+            // 
+            // labelFilmMatch1
+            // 
+            this.labelFilmMatch1.AutoSize = true;
+            this.labelFilmMatch1.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilmMatch1.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilmMatch1.ForeColor = System.Drawing.Color.White;
+            this.labelFilmMatch1.Location = new System.Drawing.Point(73, 370);
+            this.labelFilmMatch1.Name = "labelFilmMatch1";
+            this.labelFilmMatch1.Size = new System.Drawing.Size(123, 35);
+            this.labelFilmMatch1.TabIndex = 18;
+            this.labelFilmMatch1.Text = "Film Title";
+            this.labelFilmMatch1.Visible = false;
+            this.labelFilmMatch1.Click += new System.EventHandler(this.LabelFilmMatch1_Click);
+            // 
+            // labelFilmMatch2
+            // 
+            this.labelFilmMatch2.AutoSize = true;
+            this.labelFilmMatch2.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilmMatch2.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilmMatch2.ForeColor = System.Drawing.Color.White;
+            this.labelFilmMatch2.Location = new System.Drawing.Point(73, 467);
+            this.labelFilmMatch2.Name = "labelFilmMatch2";
+            this.labelFilmMatch2.Size = new System.Drawing.Size(123, 35);
+            this.labelFilmMatch2.TabIndex = 19;
+            this.labelFilmMatch2.Text = "Film Title";
+            this.labelFilmMatch2.Visible = false;
+            this.labelFilmMatch2.Click += new System.EventHandler(this.LabelFilmMatch2_Click);
+            // 
+            // labelActorFilm5Year
+            // 
+            this.labelActorFilm5Year.AutoSize = true;
+            this.labelActorFilm5Year.BackColor = System.Drawing.Color.Transparent;
+            this.labelActorFilm5Year.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelActorFilm5Year.ForeColor = System.Drawing.Color.White;
+            this.labelActorFilm5Year.Location = new System.Drawing.Point(555, 786);
+            this.labelActorFilm5Year.Name = "labelActorFilm5Year";
+            this.labelActorFilm5Year.Size = new System.Drawing.Size(70, 35);
+            this.labelActorFilm5Year.TabIndex = 16;
+            this.labelActorFilm5Year.Text = "Year";
+            this.labelActorFilm5Year.Visible = false;
+            // 
+            // labelActorFilm4Year
+            // 
+            this.labelActorFilm4Year.AutoSize = true;
+            this.labelActorFilm4Year.BackColor = System.Drawing.Color.Transparent;
+            this.labelActorFilm4Year.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelActorFilm4Year.ForeColor = System.Drawing.Color.White;
+            this.labelActorFilm4Year.Location = new System.Drawing.Point(555, 707);
+            this.labelActorFilm4Year.Name = "labelActorFilm4Year";
+            this.labelActorFilm4Year.Size = new System.Drawing.Size(70, 35);
+            this.labelActorFilm4Year.TabIndex = 15;
+            this.labelActorFilm4Year.Text = "Year";
+            this.labelActorFilm4Year.Visible = false;
+            // 
+            // labelActorFilm3Year
+            // 
+            this.labelActorFilm3Year.AutoSize = true;
+            this.labelActorFilm3Year.BackColor = System.Drawing.Color.Transparent;
+            this.labelActorFilm3Year.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelActorFilm3Year.ForeColor = System.Drawing.Color.White;
+            this.labelActorFilm3Year.Location = new System.Drawing.Point(555, 631);
+            this.labelActorFilm3Year.Name = "labelActorFilm3Year";
+            this.labelActorFilm3Year.Size = new System.Drawing.Size(70, 35);
+            this.labelActorFilm3Year.TabIndex = 14;
+            this.labelActorFilm3Year.Text = "Year";
+            this.labelActorFilm3Year.Visible = false;
+            // 
+            // labelActorFilm1Year
+            // 
+            this.labelActorFilm1Year.AutoSize = true;
+            this.labelActorFilm1Year.BackColor = System.Drawing.Color.Transparent;
+            this.labelActorFilm1Year.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelActorFilm1Year.ForeColor = System.Drawing.Color.White;
+            this.labelActorFilm1Year.Location = new System.Drawing.Point(555, 475);
+            this.labelActorFilm1Year.Name = "labelActorFilm1Year";
+            this.labelActorFilm1Year.Size = new System.Drawing.Size(70, 35);
+            this.labelActorFilm1Year.TabIndex = 12;
+            this.labelActorFilm1Year.Text = "Year";
+            this.labelActorFilm1Year.Visible = false;
+            // 
+            // labelActorFilm2Year
+            // 
+            this.labelActorFilm2Year.AutoSize = true;
+            this.labelActorFilm2Year.BackColor = System.Drawing.Color.Transparent;
+            this.labelActorFilm2Year.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelActorFilm2Year.ForeColor = System.Drawing.Color.White;
+            this.labelActorFilm2Year.Location = new System.Drawing.Point(555, 548);
+            this.labelActorFilm2Year.Name = "labelActorFilm2Year";
+            this.labelActorFilm2Year.Size = new System.Drawing.Size(70, 35);
+            this.labelActorFilm2Year.TabIndex = 13;
+            this.labelActorFilm2Year.Text = "Year";
+            this.labelActorFilm2Year.Visible = false;
+            // 
+            // labelActorFilm5
+            // 
+            this.labelActorFilm5.AutoSize = true;
+            this.labelActorFilm5.BackColor = System.Drawing.Color.Transparent;
+            this.labelActorFilm5.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelActorFilm5.ForeColor = System.Drawing.Color.White;
+            this.labelActorFilm5.Location = new System.Drawing.Point(52, 786);
+            this.labelActorFilm5.Name = "labelActorFilm5";
+            this.labelActorFilm5.Size = new System.Drawing.Size(123, 35);
+            this.labelActorFilm5.TabIndex = 11;
+            this.labelActorFilm5.Text = "Film Title";
+            this.labelActorFilm5.Visible = false;
+            this.labelActorFilm5.Click += new System.EventHandler(this.LabelActorFilm5_Click);
+            // 
+            // labelActorFilm4
+            // 
+            this.labelActorFilm4.AutoSize = true;
+            this.labelActorFilm4.BackColor = System.Drawing.Color.Transparent;
+            this.labelActorFilm4.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelActorFilm4.ForeColor = System.Drawing.Color.White;
+            this.labelActorFilm4.Location = new System.Drawing.Point(52, 707);
+            this.labelActorFilm4.Name = "labelActorFilm4";
+            this.labelActorFilm4.Size = new System.Drawing.Size(123, 35);
+            this.labelActorFilm4.TabIndex = 10;
+            this.labelActorFilm4.Text = "Film Title";
+            this.labelActorFilm4.Visible = false;
+            this.labelActorFilm4.Click += new System.EventHandler(this.LabelActorFilm4_Click);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.White;
+            this.label18.Location = new System.Drawing.Point(72, 295);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(566, 40);
+            this.label18.TabIndex = 9;
+            this.label18.Text = "Select a movie to view more details!";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(0, -17);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(707, 288);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 2;
+            this.pictureBox6.TabStop = false;
+            // 
+            // labelActorName
+            // 
+            this.labelActorName.AutoSize = true;
+            this.labelActorName.BackColor = System.Drawing.Color.Transparent;
+            this.labelActorName.Font = new System.Drawing.Font("Google Sans", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelActorName.ForeColor = System.Drawing.Color.White;
+            this.labelActorName.Location = new System.Drawing.Point(50, 412);
+            this.labelActorName.Name = "labelActorName";
+            this.labelActorName.Size = new System.Drawing.Size(247, 45);
+            this.labelActorName.TabIndex = 0;
+            this.labelActorName.Text = "Actor\'s name";
+            // 
+            // labelActorFilm3
+            // 
+            this.labelActorFilm3.AutoSize = true;
+            this.labelActorFilm3.BackColor = System.Drawing.Color.Transparent;
+            this.labelActorFilm3.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelActorFilm3.ForeColor = System.Drawing.Color.White;
+            this.labelActorFilm3.Location = new System.Drawing.Point(52, 631);
+            this.labelActorFilm3.Name = "labelActorFilm3";
+            this.labelActorFilm3.Size = new System.Drawing.Size(123, 35);
+            this.labelActorFilm3.TabIndex = 8;
+            this.labelActorFilm3.Text = "Film Title";
+            this.labelActorFilm3.Visible = false;
+            this.labelActorFilm3.Click += new System.EventHandler(this.LabelActorFilm3_Click);
+            // 
+            // labelActorFilm1
+            // 
+            this.labelActorFilm1.AutoSize = true;
+            this.labelActorFilm1.BackColor = System.Drawing.Color.Transparent;
+            this.labelActorFilm1.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelActorFilm1.ForeColor = System.Drawing.Color.White;
+            this.labelActorFilm1.Location = new System.Drawing.Point(52, 475);
+            this.labelActorFilm1.Name = "labelActorFilm1";
+            this.labelActorFilm1.Size = new System.Drawing.Size(123, 35);
+            this.labelActorFilm1.TabIndex = 6;
+            this.labelActorFilm1.Text = "Film Title";
+            this.labelActorFilm1.Visible = false;
+            this.labelActorFilm1.Click += new System.EventHandler(this.LabelActorFilm1_Click);
+            // 
+            // labelActorFilm2
+            // 
+            this.labelActorFilm2.AutoSize = true;
+            this.labelActorFilm2.BackColor = System.Drawing.Color.Transparent;
+            this.labelActorFilm2.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelActorFilm2.ForeColor = System.Drawing.Color.White;
+            this.labelActorFilm2.Location = new System.Drawing.Point(52, 548);
+            this.labelActorFilm2.Name = "labelActorFilm2";
+            this.labelActorFilm2.Size = new System.Drawing.Size(123, 35);
+            this.labelActorFilm2.TabIndex = 7;
+            this.labelActorFilm2.Text = "Film Title";
+            this.labelActorFilm2.Visible = false;
+            this.labelActorFilm2.Click += new System.EventHandler(this.LabelActorFilm2_Click);
             // 
             // panel2
             // 
@@ -458,210 +897,10 @@
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Controls.Add(this.label14);
             this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Controls.Add(this.panel6);
-            this.panel2.Controls.Add(this.panel5);
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Location = new System.Drawing.Point(310, 2);
+            this.panel2.Location = new System.Drawing.Point(5, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(707, 889);
             this.panel2.TabIndex = 32;
-            this.panel2.Visible = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(0, 4);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(707, 139);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 2;
-            this.pictureBox5.TabStop = false;
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.labelRT3);
-            this.panel6.Controls.Add(this.labelRT2);
-            this.panel6.Controls.Add(this.labelRT1);
-            this.panel6.Controls.Add(this.label13);
-            this.panel6.Location = new System.Drawing.Point(32, 694);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(652, 183);
-            this.panel6.TabIndex = 1;
-            // 
-            // labelRT3
-            // 
-            this.labelRT3.AutoSize = true;
-            this.labelRT3.BackColor = System.Drawing.Color.Transparent;
-            this.labelRT3.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRT3.ForeColor = System.Drawing.Color.White;
-            this.labelRT3.Location = new System.Drawing.Point(4, 143);
-            this.labelRT3.Name = "labelRT3";
-            this.labelRT3.Size = new System.Drawing.Size(358, 35);
-            this.labelRT3.TabIndex = 5;
-            this.labelRT3.Text = "Rotten Tomatoes Top Rated";
-            this.labelRT3.Click += new System.EventHandler(this.LabelRT3_Click);
-            // 
-            // labelRT2
-            // 
-            this.labelRT2.AutoSize = true;
-            this.labelRT2.BackColor = System.Drawing.Color.Transparent;
-            this.labelRT2.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRT2.ForeColor = System.Drawing.Color.White;
-            this.labelRT2.Location = new System.Drawing.Point(4, 96);
-            this.labelRT2.Name = "labelRT2";
-            this.labelRT2.Size = new System.Drawing.Size(358, 35);
-            this.labelRT2.TabIndex = 4;
-            this.labelRT2.Text = "Rotten Tomatoes Top Rated";
-            this.labelRT2.Click += new System.EventHandler(this.LabelRT2_Click);
-            // 
-            // labelRT1
-            // 
-            this.labelRT1.AutoSize = true;
-            this.labelRT1.BackColor = System.Drawing.Color.Transparent;
-            this.labelRT1.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRT1.ForeColor = System.Drawing.Color.White;
-            this.labelRT1.Location = new System.Drawing.Point(4, 50);
-            this.labelRT1.Name = "labelRT1";
-            this.labelRT1.Size = new System.Drawing.Size(358, 35);
-            this.labelRT1.TabIndex = 3;
-            this.labelRT1.Text = "Rotten Tomatoes Top Rated";
-            this.labelRT1.Click += new System.EventHandler(this.LabelRT1_Click);
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(3, 5);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(432, 40);
-            this.label13.TabIndex = 2;
-            this.label13.Text = "Rotten Tomatoes Top Rated";
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.labelMetacritic3);
-            this.panel5.Controls.Add(this.label12);
-            this.panel5.Controls.Add(this.labelMetacritic2);
-            this.panel5.Controls.Add(this.labelMetacritic1);
-            this.panel5.Location = new System.Drawing.Point(32, 491);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(652, 178);
-            this.panel5.TabIndex = 1;
-            // 
-            // labelMetacritic3
-            // 
-            this.labelMetacritic3.AutoSize = true;
-            this.labelMetacritic3.BackColor = System.Drawing.Color.Transparent;
-            this.labelMetacritic3.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMetacritic3.ForeColor = System.Drawing.Color.White;
-            this.labelMetacritic3.Location = new System.Drawing.Point(4, 139);
-            this.labelMetacritic3.Name = "labelMetacritic3";
-            this.labelMetacritic3.Size = new System.Drawing.Size(273, 35);
-            this.labelMetacritic3.TabIndex = 11;
-            this.labelMetacritic3.Text = "Metacritic Top Rated";
-            this.labelMetacritic3.Click += new System.EventHandler(this.LabelMetacritic3_Click);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(3, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(335, 40);
-            this.label12.TabIndex = 1;
-            this.label12.Text = "Metacritic Top Rated";
-            // 
-            // labelMetacritic2
-            // 
-            this.labelMetacritic2.AutoSize = true;
-            this.labelMetacritic2.BackColor = System.Drawing.Color.Transparent;
-            this.labelMetacritic2.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMetacritic2.ForeColor = System.Drawing.Color.White;
-            this.labelMetacritic2.Location = new System.Drawing.Point(4, 92);
-            this.labelMetacritic2.Name = "labelMetacritic2";
-            this.labelMetacritic2.Size = new System.Drawing.Size(273, 35);
-            this.labelMetacritic2.TabIndex = 10;
-            this.labelMetacritic2.Text = "Metacritic Top Rated";
-            this.labelMetacritic2.Click += new System.EventHandler(this.LabelMetacritic2_Click);
-            // 
-            // labelMetacritic1
-            // 
-            this.labelMetacritic1.AutoSize = true;
-            this.labelMetacritic1.BackColor = System.Drawing.Color.Transparent;
-            this.labelMetacritic1.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMetacritic1.ForeColor = System.Drawing.Color.White;
-            this.labelMetacritic1.Location = new System.Drawing.Point(4, 46);
-            this.labelMetacritic1.Name = "labelMetacritic1";
-            this.labelMetacritic1.Size = new System.Drawing.Size(273, 35);
-            this.labelMetacritic1.TabIndex = 9;
-            this.labelMetacritic1.Text = "Metacritic Top Rated";
-            this.labelMetacritic1.Click += new System.EventHandler(this.LabelMetacritic1_Click);
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.labelIMDB3);
-            this.panel3.Controls.Add(this.labelIMDB2);
-            this.panel3.Controls.Add(this.labelIMDB1);
-            this.panel3.Controls.Add(this.label11);
-            this.panel3.Location = new System.Drawing.Point(32, 278);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(652, 182);
-            this.panel3.TabIndex = 0;
-            // 
-            // labelIMDB3
-            // 
-            this.labelIMDB3.AutoSize = true;
-            this.labelIMDB3.BackColor = System.Drawing.Color.Transparent;
-            this.labelIMDB3.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIMDB3.ForeColor = System.Drawing.Color.White;
-            this.labelIMDB3.Location = new System.Drawing.Point(4, 140);
-            this.labelIMDB3.Name = "labelIMDB3";
-            this.labelIMDB3.Size = new System.Drawing.Size(214, 35);
-            this.labelIMDB3.TabIndex = 8;
-            this.labelIMDB3.Text = "IMDB Top Rated";
-            this.labelIMDB3.Click += new System.EventHandler(this.LabelIMDB3_Click);
-            // 
-            // labelIMDB2
-            // 
-            this.labelIMDB2.AutoSize = true;
-            this.labelIMDB2.BackColor = System.Drawing.Color.Transparent;
-            this.labelIMDB2.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIMDB2.ForeColor = System.Drawing.Color.White;
-            this.labelIMDB2.Location = new System.Drawing.Point(4, 93);
-            this.labelIMDB2.Name = "labelIMDB2";
-            this.labelIMDB2.Size = new System.Drawing.Size(214, 35);
-            this.labelIMDB2.TabIndex = 7;
-            this.labelIMDB2.Text = "IMDB Top Rated";
-            this.labelIMDB2.Click += new System.EventHandler(this.LabelIMDB2_Click);
-            // 
-            // labelIMDB1
-            // 
-            this.labelIMDB1.AutoSize = true;
-            this.labelIMDB1.BackColor = System.Drawing.Color.Transparent;
-            this.labelIMDB1.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIMDB1.ForeColor = System.Drawing.Color.White;
-            this.labelIMDB1.Location = new System.Drawing.Point(4, 47);
-            this.labelIMDB1.Name = "labelIMDB1";
-            this.labelIMDB1.Size = new System.Drawing.Size(214, 35);
-            this.labelIMDB1.TabIndex = 6;
-            this.labelIMDB1.Text = "IMDB Top Rated";
-            this.labelIMDB1.Click += new System.EventHandler(this.LabelIMDB1_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(3, 1);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(259, 40);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "IMDB Top Rated";
             // 
             // label14
             // 
@@ -676,6 +915,377 @@
             this.label14.Text = "Select a movie to view more details!";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(0, 4);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(707, 139);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 2;
+            this.pictureBox5.TabStop = false;
+            // 
+            // labelYear
+            // 
+            this.labelYear.AutoSize = true;
+            this.labelYear.BackColor = System.Drawing.Color.Transparent;
+            this.labelYear.Font = new System.Drawing.Font("Google Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelYear.ForeColor = System.Drawing.Color.White;
+            this.labelYear.Location = new System.Drawing.Point(561, 280);
+            this.labelYear.Name = "labelYear";
+            this.labelYear.Size = new System.Drawing.Size(84, 41);
+            this.labelYear.TabIndex = 33;
+            this.labelYear.Text = "Year";
+            this.labelYear.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.White;
+            this.label20.Location = new System.Drawing.Point(333, 280);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(100, 40);
+            this.label20.TabIndex = 32;
+            this.label20.Text = "YEAR";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Google Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(727, 838);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(276, 51);
+            this.button5.TabIndex = 34;
+            this.button5.Text = "Save Complete Results";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.Button5_Click);
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.SlateGray;
+            this.panel9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel9.BackgroundImage")));
+            this.panel9.Controls.Add(this.labelFilm3RTRating);
+            this.panel9.Controls.Add(this.labelFilm3RT);
+            this.panel9.Controls.Add(this.labelFilm2RTRating);
+            this.panel9.Controls.Add(this.labelFilm2RT);
+            this.panel9.Controls.Add(this.labelFilm1RTRating);
+            this.panel9.Controls.Add(this.labelFilm1RT);
+            this.panel9.Controls.Add(this.labelFilm3MCRating);
+            this.panel9.Controls.Add(this.labelFilm3MC);
+            this.panel9.Controls.Add(this.labelFilm2MCRating);
+            this.panel9.Controls.Add(this.labelFilm2MC);
+            this.panel9.Controls.Add(this.labelFilm1MCRating);
+            this.panel9.Controls.Add(this.labelFilm1MC);
+            this.panel9.Controls.Add(this.labelFilm3IMDBRating);
+            this.panel9.Controls.Add(this.labelFilm3IMDB);
+            this.panel9.Controls.Add(this.labelFilm2IMDBRating);
+            this.panel9.Controls.Add(this.labelFilm2IMDB);
+            this.panel9.Controls.Add(this.labelFilm1IMDBRating);
+            this.panel9.Controls.Add(this.labelFilm1IMDB);
+            this.panel9.Controls.Add(this.label23);
+            this.panel9.Controls.Add(this.label22);
+            this.panel9.Controls.Add(this.label21);
+            this.panel9.Controls.Add(this.label19);
+            this.panel9.Controls.Add(this.pictureBox7);
+            this.panel9.Location = new System.Drawing.Point(311, 3);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(708, 883);
+            this.panel9.TabIndex = 29;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(1, 7);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(702, 159);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.White;
+            this.label19.Location = new System.Drawing.Point(23, 190);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(101, 40);
+            this.label19.TabIndex = 1;
+            this.label19.Text = "IMDB";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.White;
+            this.label21.Location = new System.Drawing.Point(23, 414);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(177, 40);
+            this.label21.TabIndex = 2;
+            this.label21.Text = "Metacritic";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.White;
+            this.label22.Location = new System.Drawing.Point(23, 628);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(569, 40);
+            this.label22.TabIndex = 3;
+            this.label22.Text = "Rotten Tomatoes (Critic and Viewer)";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Font = new System.Drawing.Font("Google Sans", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.White;
+            this.label23.Location = new System.Drawing.Point(510, 190);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(116, 40);
+            this.label23.TabIndex = 4;
+            this.label23.Text = "Rating";
+            // 
+            // labelFilm1IMDBRating
+            // 
+            this.labelFilm1IMDBRating.AutoSize = true;
+            this.labelFilm1IMDBRating.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm1IMDBRating.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm1IMDBRating.ForeColor = System.Drawing.Color.White;
+            this.labelFilm1IMDBRating.Location = new System.Drawing.Point(530, 242);
+            this.labelFilm1IMDBRating.Name = "labelFilm1IMDBRating";
+            this.labelFilm1IMDBRating.Size = new System.Drawing.Size(95, 35);
+            this.labelFilm1IMDBRating.TabIndex = 6;
+            this.labelFilm1IMDBRating.Text = "Rating";
+            this.labelFilm1IMDBRating.Click += new System.EventHandler(this.LabelFilm1IMDB_Click);
+            // 
+            // labelFilm1IMDB
+            // 
+            this.labelFilm1IMDB.AutoSize = true;
+            this.labelFilm1IMDB.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm1IMDB.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm1IMDB.ForeColor = System.Drawing.Color.White;
+            this.labelFilm1IMDB.Location = new System.Drawing.Point(30, 242);
+            this.labelFilm1IMDB.Name = "labelFilm1IMDB";
+            this.labelFilm1IMDB.Size = new System.Drawing.Size(67, 35);
+            this.labelFilm1IMDB.TabIndex = 5;
+            this.labelFilm1IMDB.Text = "Title";
+            this.labelFilm1IMDB.Click += new System.EventHandler(this.LabelFilm1IMDB_Click);
+            // 
+            // labelFilm2IMDBRating
+            // 
+            this.labelFilm2IMDBRating.AutoSize = true;
+            this.labelFilm2IMDBRating.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm2IMDBRating.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm2IMDBRating.ForeColor = System.Drawing.Color.White;
+            this.labelFilm2IMDBRating.Location = new System.Drawing.Point(531, 292);
+            this.labelFilm2IMDBRating.Name = "labelFilm2IMDBRating";
+            this.labelFilm2IMDBRating.Size = new System.Drawing.Size(95, 35);
+            this.labelFilm2IMDBRating.TabIndex = 8;
+            this.labelFilm2IMDBRating.Text = "Rating";
+            this.labelFilm2IMDBRating.Click += new System.EventHandler(this.LabelFilm2IMDB_Click);
+            // 
+            // labelFilm2IMDB
+            // 
+            this.labelFilm2IMDB.AutoSize = true;
+            this.labelFilm2IMDB.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm2IMDB.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm2IMDB.ForeColor = System.Drawing.Color.White;
+            this.labelFilm2IMDB.Location = new System.Drawing.Point(31, 292);
+            this.labelFilm2IMDB.Name = "labelFilm2IMDB";
+            this.labelFilm2IMDB.Size = new System.Drawing.Size(67, 35);
+            this.labelFilm2IMDB.TabIndex = 7;
+            this.labelFilm2IMDB.Text = "Title";
+            this.labelFilm2IMDB.Click += new System.EventHandler(this.LabelFilm2IMDB_Click);
+            // 
+            // labelFilm3IMDBRating
+            // 
+            this.labelFilm3IMDBRating.AutoSize = true;
+            this.labelFilm3IMDBRating.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm3IMDBRating.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm3IMDBRating.ForeColor = System.Drawing.Color.White;
+            this.labelFilm3IMDBRating.Location = new System.Drawing.Point(531, 344);
+            this.labelFilm3IMDBRating.Name = "labelFilm3IMDBRating";
+            this.labelFilm3IMDBRating.Size = new System.Drawing.Size(95, 35);
+            this.labelFilm3IMDBRating.TabIndex = 10;
+            this.labelFilm3IMDBRating.Text = "Rating";
+            this.labelFilm3IMDBRating.Click += new System.EventHandler(this.LabelFilm3IMDB_Click);
+            // 
+            // labelFilm3IMDB
+            // 
+            this.labelFilm3IMDB.AutoSize = true;
+            this.labelFilm3IMDB.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm3IMDB.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm3IMDB.ForeColor = System.Drawing.Color.White;
+            this.labelFilm3IMDB.Location = new System.Drawing.Point(31, 344);
+            this.labelFilm3IMDB.Name = "labelFilm3IMDB";
+            this.labelFilm3IMDB.Size = new System.Drawing.Size(67, 35);
+            this.labelFilm3IMDB.TabIndex = 9;
+            this.labelFilm3IMDB.Text = "Title";
+            this.labelFilm3IMDB.Click += new System.EventHandler(this.LabelFilm3IMDB_Click);
+            // 
+            // labelFilm3MCRating
+            // 
+            this.labelFilm3MCRating.AutoSize = true;
+            this.labelFilm3MCRating.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm3MCRating.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm3MCRating.ForeColor = System.Drawing.Color.White;
+            this.labelFilm3MCRating.Location = new System.Drawing.Point(531, 564);
+            this.labelFilm3MCRating.Name = "labelFilm3MCRating";
+            this.labelFilm3MCRating.Size = new System.Drawing.Size(95, 35);
+            this.labelFilm3MCRating.TabIndex = 16;
+            this.labelFilm3MCRating.Text = "Rating";
+            this.labelFilm3MCRating.Click += new System.EventHandler(this.LabelFilm3MC_Click);
+            // 
+            // labelFilm3MC
+            // 
+            this.labelFilm3MC.AutoSize = true;
+            this.labelFilm3MC.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm3MC.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm3MC.ForeColor = System.Drawing.Color.White;
+            this.labelFilm3MC.Location = new System.Drawing.Point(31, 564);
+            this.labelFilm3MC.Name = "labelFilm3MC";
+            this.labelFilm3MC.Size = new System.Drawing.Size(67, 35);
+            this.labelFilm3MC.TabIndex = 15;
+            this.labelFilm3MC.Text = "Title";
+            this.labelFilm3MC.Click += new System.EventHandler(this.LabelFilm3MC_Click);
+            // 
+            // labelFilm2MCRating
+            // 
+            this.labelFilm2MCRating.AutoSize = true;
+            this.labelFilm2MCRating.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm2MCRating.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm2MCRating.ForeColor = System.Drawing.Color.White;
+            this.labelFilm2MCRating.Location = new System.Drawing.Point(531, 512);
+            this.labelFilm2MCRating.Name = "labelFilm2MCRating";
+            this.labelFilm2MCRating.Size = new System.Drawing.Size(95, 35);
+            this.labelFilm2MCRating.TabIndex = 14;
+            this.labelFilm2MCRating.Text = "Rating";
+            this.labelFilm2MCRating.Click += new System.EventHandler(this.LabelFilm2MC_Click);
+            // 
+            // labelFilm2MC
+            // 
+            this.labelFilm2MC.AutoSize = true;
+            this.labelFilm2MC.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm2MC.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm2MC.ForeColor = System.Drawing.Color.White;
+            this.labelFilm2MC.Location = new System.Drawing.Point(31, 512);
+            this.labelFilm2MC.Name = "labelFilm2MC";
+            this.labelFilm2MC.Size = new System.Drawing.Size(67, 35);
+            this.labelFilm2MC.TabIndex = 13;
+            this.labelFilm2MC.Text = "Title";
+            this.labelFilm2MC.Click += new System.EventHandler(this.LabelFilm2MC_Click);
+            // 
+            // labelFilm1MCRating
+            // 
+            this.labelFilm1MCRating.AutoSize = true;
+            this.labelFilm1MCRating.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm1MCRating.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm1MCRating.ForeColor = System.Drawing.Color.White;
+            this.labelFilm1MCRating.Location = new System.Drawing.Point(530, 462);
+            this.labelFilm1MCRating.Name = "labelFilm1MCRating";
+            this.labelFilm1MCRating.Size = new System.Drawing.Size(95, 35);
+            this.labelFilm1MCRating.TabIndex = 12;
+            this.labelFilm1MCRating.Text = "Rating";
+            this.labelFilm1MCRating.Click += new System.EventHandler(this.LabelFilm1MC_Click);
+            // 
+            // labelFilm1MC
+            // 
+            this.labelFilm1MC.AutoSize = true;
+            this.labelFilm1MC.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm1MC.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm1MC.ForeColor = System.Drawing.Color.White;
+            this.labelFilm1MC.Location = new System.Drawing.Point(30, 462);
+            this.labelFilm1MC.Name = "labelFilm1MC";
+            this.labelFilm1MC.Size = new System.Drawing.Size(67, 35);
+            this.labelFilm1MC.TabIndex = 11;
+            this.labelFilm1MC.Text = "Title";
+            this.labelFilm1MC.Click += new System.EventHandler(this.LabelFilm1MC_Click);
+            // 
+            // labelFilm3RTRating
+            // 
+            this.labelFilm3RTRating.AutoSize = true;
+            this.labelFilm3RTRating.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm3RTRating.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm3RTRating.ForeColor = System.Drawing.Color.White;
+            this.labelFilm3RTRating.Location = new System.Drawing.Point(531, 779);
+            this.labelFilm3RTRating.Name = "labelFilm3RTRating";
+            this.labelFilm3RTRating.Size = new System.Drawing.Size(95, 35);
+            this.labelFilm3RTRating.TabIndex = 22;
+            this.labelFilm3RTRating.Text = "Rating";
+            this.labelFilm3RTRating.Click += new System.EventHandler(this.LabelFilm3RT_Click);
+            // 
+            // labelFilm3RT
+            // 
+            this.labelFilm3RT.AutoSize = true;
+            this.labelFilm3RT.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm3RT.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm3RT.ForeColor = System.Drawing.Color.White;
+            this.labelFilm3RT.Location = new System.Drawing.Point(31, 779);
+            this.labelFilm3RT.Name = "labelFilm3RT";
+            this.labelFilm3RT.Size = new System.Drawing.Size(67, 35);
+            this.labelFilm3RT.TabIndex = 21;
+            this.labelFilm3RT.Text = "Title";
+            this.labelFilm3RT.Click += new System.EventHandler(this.LabelFilm3RT_Click);
+            // 
+            // labelFilm2RTRating
+            // 
+            this.labelFilm2RTRating.AutoSize = true;
+            this.labelFilm2RTRating.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm2RTRating.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm2RTRating.ForeColor = System.Drawing.Color.White;
+            this.labelFilm2RTRating.Location = new System.Drawing.Point(531, 727);
+            this.labelFilm2RTRating.Name = "labelFilm2RTRating";
+            this.labelFilm2RTRating.Size = new System.Drawing.Size(95, 35);
+            this.labelFilm2RTRating.TabIndex = 20;
+            this.labelFilm2RTRating.Text = "Rating";
+            this.labelFilm2RTRating.Click += new System.EventHandler(this.LabelFilm2RT_Click);
+            // 
+            // labelFilm2RT
+            // 
+            this.labelFilm2RT.AutoSize = true;
+            this.labelFilm2RT.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm2RT.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm2RT.ForeColor = System.Drawing.Color.White;
+            this.labelFilm2RT.Location = new System.Drawing.Point(31, 727);
+            this.labelFilm2RT.Name = "labelFilm2RT";
+            this.labelFilm2RT.Size = new System.Drawing.Size(67, 35);
+            this.labelFilm2RT.TabIndex = 19;
+            this.labelFilm2RT.Text = "Title";
+            this.labelFilm2RT.Click += new System.EventHandler(this.LabelFilm2RT_Click);
+            // 
+            // labelFilm1RTRating
+            // 
+            this.labelFilm1RTRating.AutoSize = true;
+            this.labelFilm1RTRating.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm1RTRating.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm1RTRating.ForeColor = System.Drawing.Color.White;
+            this.labelFilm1RTRating.Location = new System.Drawing.Point(530, 677);
+            this.labelFilm1RTRating.Name = "labelFilm1RTRating";
+            this.labelFilm1RTRating.Size = new System.Drawing.Size(95, 35);
+            this.labelFilm1RTRating.TabIndex = 18;
+            this.labelFilm1RTRating.Text = "Rating";
+            this.labelFilm1RTRating.Click += new System.EventHandler(this.LabelFilm1RT_Click);
+            // 
+            // labelFilm1RT
+            // 
+            this.labelFilm1RT.AutoSize = true;
+            this.labelFilm1RT.BackColor = System.Drawing.Color.Transparent;
+            this.labelFilm1RT.Font = new System.Drawing.Font("Google Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFilm1RT.ForeColor = System.Drawing.Color.White;
+            this.labelFilm1RT.Location = new System.Drawing.Point(30, 677);
+            this.labelFilm1RT.Name = "labelFilm1RT";
+            this.labelFilm1RT.Size = new System.Drawing.Size(67, 35);
+            this.labelFilm1RT.TabIndex = 17;
+            this.labelFilm1RT.Text = "Title";
+            this.labelFilm1RT.Click += new System.EventHandler(this.LabelFilm1RT_Click);
+            // 
             // ResultsViewer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -683,8 +1293,9 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.SlateGray;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1017, 892);
-            this.Controls.Add(this.panel2);
+            this.ClientSize = new System.Drawing.Size(1017, 1014);
+            this.Controls.Add(this.panel9);
+            this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.labelGenre);
             this.Controls.Add(this.label10);
@@ -704,9 +1315,13 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelYear);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.button5);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MaximizeBox = false;
             this.Name = "ResultsViewer";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "ResultsViewer";
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
@@ -716,18 +1331,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
@@ -761,9 +1377,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
@@ -778,5 +1391,71 @@
         private System.Windows.Forms.Label labelIMDB1;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label labelRTRating3;
+        private System.Windows.Forms.Label labelRTRating2;
+        private System.Windows.Forms.Label labelRTRating1;
+        private System.Windows.Forms.Label labelMetacriticRating3;
+        private System.Windows.Forms.Label labelMetacriticRating2;
+        private System.Windows.Forms.Label labelMetacriticRating1;
+        private System.Windows.Forms.Label labelIMDB3Rating;
+        private System.Windows.Forms.Label labelIMDB2Rating;
+        private System.Windows.Forms.Label labelIMDB1Rating;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Label labelActorFilm5;
+        private System.Windows.Forms.Label labelActorFilm4;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label labelActorName;
+        private System.Windows.Forms.Label labelActorFilm3;
+        private System.Windows.Forms.Label labelActorFilm1;
+        private System.Windows.Forms.Label labelActorFilm2;
+        private System.Windows.Forms.Label labelActorFilm5Year;
+        private System.Windows.Forms.Label labelActorFilm4Year;
+        private System.Windows.Forms.Label labelActorFilm3Year;
+        private System.Windows.Forms.Label labelActorFilm1Year;
+        private System.Windows.Forms.Label labelActorFilm2Year;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label labelFilmMatch5Year;
+        private System.Windows.Forms.Label labelFilmMatch4Year;
+        private System.Windows.Forms.Label labelFilmMatch3Year;
+        private System.Windows.Forms.Label labelFilmMatch1Year;
+        private System.Windows.Forms.Label labelFilmMatch2Year;
+        private System.Windows.Forms.Label labelFilmMatch5;
+        private System.Windows.Forms.Label labelFilmMatch4;
+        private System.Windows.Forms.Label labelYourInput;
+        private System.Windows.Forms.Label labelFilmMatch3;
+        private System.Windows.Forms.Label labelFilmMatch1;
+        private System.Windows.Forms.Label labelFilmMatch2;
+        private System.Windows.Forms.Label labelYear;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Label labelFilm1IMDBRating;
+        private System.Windows.Forms.Label labelFilm1IMDB;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label labelFilm3RTRating;
+        private System.Windows.Forms.Label labelFilm3RT;
+        private System.Windows.Forms.Label labelFilm2RTRating;
+        private System.Windows.Forms.Label labelFilm2RT;
+        private System.Windows.Forms.Label labelFilm1RTRating;
+        private System.Windows.Forms.Label labelFilm1RT;
+        private System.Windows.Forms.Label labelFilm3MCRating;
+        private System.Windows.Forms.Label labelFilm3MC;
+        private System.Windows.Forms.Label labelFilm2MCRating;
+        private System.Windows.Forms.Label labelFilm2MC;
+        private System.Windows.Forms.Label labelFilm1MCRating;
+        private System.Windows.Forms.Label labelFilm1MC;
+        private System.Windows.Forms.Label labelFilm3IMDBRating;
+        private System.Windows.Forms.Label labelFilm3IMDB;
+        private System.Windows.Forms.Label labelFilm2IMDBRating;
+        private System.Windows.Forms.Label labelFilm2IMDB;
     }
 }

@@ -1184,22 +1184,22 @@
     <value>This is the deliverable for the CS3800
 Advanced Database Systems Coursework
 
-
 The app allows the user to search for a movie, 
 and view relevant information based on their 
 choice, such as: 
      Title, Director, Runtime, Cast, Ratings etc…
 
+The user can search either through a title or 
+an actor. They can also view the top rated 
+titles or a random title.
 
 The user has the option to save the results to 
 a file to view again later on if they wish.
-
 
 The dataset is stored on a document store 
 in MongoDB, and the dataset contains 
 25,000 documents. The dataset does not
 contain any movies beyond 2015/2016.
-
 
 Created By:             Lewis King
 Submission Date:   26/05/2019</value>
