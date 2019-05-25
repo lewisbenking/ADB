@@ -67,6 +67,32 @@ namespace Coursework
 
         private void Button5_Click(object sender, EventArgs e) { WriteToTextFile(); }
 
+
+        private void LabelActorFilm1_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelActorFilm1.Text, labelActorFilm1Year.Text, labelActorName.Text); }
+        private void LabelActorFilm2_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelActorFilm2.Text, labelActorFilm2Year.Text, labelActorName.Text); }
+        private void LabelActorFilm3_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelActorFilm3.Text, labelActorFilm3Year.Text, labelActorName.Text); }
+        private void LabelActorFilm4_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelActorFilm4.Text, labelActorFilm4Year.Text, labelActorName.Text); }
+        private void LabelActorFilm5_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelActorFilm5.Text, labelActorFilm5Year.Text, labelActorName.Text); }
+
+        private void LabelFilmMatch1_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelFilmMatch1.Text, labelFilmMatch1Year.Text, ""); }
+        private void LabelFilmMatch2_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelFilmMatch2.Text, labelFilmMatch2Year.Text, ""); }
+
+        private void LabelFilm1IMDB_Click(object sender, EventArgs e) { SearchByTitle(labelFilm1IMDB.Text); }
+        private void LabelFilm2IMDB_Click(object sender, EventArgs e) { SearchByTitle(labelFilm2IMDB.Text); }
+        private void LabelFilm3IMDB_Click(object sender, EventArgs e) { SearchByTitle(labelFilm3IMDB.Text); }
+
+        private void LabelFilm1MC_Click(object sender, EventArgs e) { SearchByTitle(labelFilm1MC.Text); }
+        private void LabelFilm2MC_Click(object sender, EventArgs e) { SearchByTitle(labelFilm2MC.Text); }
+        private void LabelFilm3MC_Click(object sender, EventArgs e) { SearchByTitle(labelFilm3MC.Text); }
+
+        private void LabelFilm1RT_Click(object sender, EventArgs e) { SearchByTitle(labelFilm1RT.Text); }
+        private void LabelFilm2RT_Click(object sender, EventArgs e) { SearchByTitle(labelFilm2RT.Text); }
+        private void LabelFilm3RT_Click(object sender, EventArgs e) { SearchByTitle(labelFilm3RT.Text); }
+
+        private void LabelFilmMatch3_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelFilmMatch3.Text, labelFilmMatch3Year.Text, ""); }
+        private void LabelFilmMatch4_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelFilmMatch4.Text, labelFilmMatch4Year.Text, ""); }
+        private void LabelFilmMatch5_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelFilmMatch5.Text, labelFilmMatch5Year.Text, ""); }
+
         public void SearchByActor(string actorToSearch)
         {
             this.actorToSearch = actorToSearch;
@@ -259,6 +285,8 @@ namespace Coursework
 
         private void WriteToTextFile()
         {
+            movieInJson = movieInJson.Replace(",\"", ",\n\"");
+
             SaveFileDialog sfd = new SaveFileDialog
             {
                 Filter = "txt files (*.txt)|*.txt",
@@ -270,36 +298,10 @@ namespace Coursework
             {
                 using (StreamWriter writer = new StreamWriter(sfd.FileName))
                 {
-                    movieInJson = movieInJson.Replace(",\"", ",\n\"");
                     writer.Write(movieInJson);
                     writer.Close();
                 }
             }
         }
-
-        private void LabelActorFilm1_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelActorFilm1.Text, labelActorFilm1Year.Text, labelActorName.Text); }
-        private void LabelActorFilm2_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelActorFilm2.Text, labelActorFilm2Year.Text, labelActorName.Text); }
-        private void LabelActorFilm3_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelActorFilm3.Text, labelActorFilm3Year.Text, labelActorName.Text); }
-        private void LabelActorFilm4_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelActorFilm4.Text, labelActorFilm4Year.Text, labelActorName.Text); }
-        private void LabelActorFilm5_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelActorFilm5.Text, labelActorFilm5Year.Text, labelActorName.Text); }
-
-        private void LabelFilmMatch1_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelFilmMatch1.Text, labelFilmMatch1Year.Text, ""); }
-        private void LabelFilmMatch2_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelFilmMatch2.Text, labelFilmMatch2Year.Text, ""); }
-
-        private void LabelFilm1IMDB_Click(object sender, EventArgs e) { SearchByTitle(labelFilm1IMDB.Text); }
-        private void LabelFilm2IMDB_Click(object sender, EventArgs e) { SearchByTitle(labelFilm2IMDB.Text); }
-        private void LabelFilm3IMDB_Click(object sender, EventArgs e) { SearchByTitle(labelFilm3IMDB.Text); }
-
-        private void LabelFilm1MC_Click(object sender, EventArgs e) { SearchByTitle(labelFilm1MC.Text); }
-        private void LabelFilm2MC_Click(object sender, EventArgs e) { SearchByTitle(labelFilm2MC.Text); }
-        private void LabelFilm3MC_Click(object sender, EventArgs e) { SearchByTitle(labelFilm3MC.Text); }
-
-        private void LabelFilm1RT_Click(object sender, EventArgs e) { SearchByTitle(labelFilm1RT.Text); }
-        private void LabelFilm2RT_Click(object sender, EventArgs e) { SearchByTitle(labelFilm2RT.Text); }
-        private void LabelFilm3RT_Click(object sender, EventArgs e) { SearchByTitle(labelFilm3RT.Text); }
-
-        private void LabelFilmMatch3_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelFilmMatch3.Text, labelFilmMatch3Year.Text, ""); }
-        private void LabelFilmMatch4_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelFilmMatch4.Text, labelFilmMatch4Year.Text, ""); }
-        private void LabelFilmMatch5_Click(object sender, EventArgs e) { SearchByTitleAndYear(labelFilmMatch5.Text, labelFilmMatch5Year.Text, ""); }
     }
 }
