@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Coursework.exe" size="1500640">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Coursework.exe" size="1503712">
       <assemblyIdentity name="Coursework" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>cF08O4sjgQdafEJr7kLF/TPml0jZ6vCjVeX3gaPjYQI=</dsig:DigestValue>
+        <dsig:DigestValue>0xLxWuvVtQk2mxvgu735fdGneURdyki61yqcOV5sF44=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
