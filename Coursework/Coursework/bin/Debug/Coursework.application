@@ -14,14 +14,14 @@
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Coursework.exe.manifest" size="75544">
+    <dependentAssembly dependencyType="install" codebase="Coursework.exe.manifest" size="75476">
       <assemblyIdentity name="Coursework.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ffSd6+hWSUbcKoTGP2S0uCjpas1j1T8+L+s8elBuCvY=</dsig:DigestValue>
+        <dsig:DigestValue>OC9tx3SwBPfCU6SVnQ0Gi3yEQl5v1Bfb9mQNHrN1bNQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

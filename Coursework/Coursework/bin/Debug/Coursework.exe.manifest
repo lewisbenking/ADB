@@ -4,7 +4,7 @@
   <description asmv2:iconFile="logo2.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Coursework" version="1.0.0.0" publicKeyToken="031A3D67B4C091CB" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="Coursework" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="Coursework.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Coursework.exe" size="1501152">
-      <assemblyIdentity name="Coursework" version="1.0.0.0" publicKeyToken="031A3D67B4C091CB" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Coursework.exe" size="1500640">
+      <assemblyIdentity name="Coursework" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>uLHwmn+OilRMkFlTbvh+6DRn5yWjQkFlEjm5t5GILrg=</dsig:DigestValue>
+        <dsig:DigestValue>cF08O4sjgQdafEJr7kLF/TPml0jZ6vCjVeX3gaPjYQI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
