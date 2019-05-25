@@ -8,7 +8,7 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://github.com/lewisbenking/ADB/raw/master/Coursework/Publish/Coursework.application" />
+    <deploymentProvider codebase="https://github.com/lewisbenking/ADB/raw/master/Coursework/Publish/" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
