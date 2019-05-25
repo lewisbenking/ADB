@@ -22,11 +22,12 @@
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://github.com/lewisbenking/ADB/blob/master/Coursework/Publish/Coursework.application/</InstallUrl>
+    <MapFileExtensions>false</MapFileExtensions>
+    <InstallUrl>https://github.com/lewisbenking/ADB/raw/master/Coursework/Publish/</InstallUrl>
+    <UpdateUrl>https://github.com/lewisbenking/ADB/raw/master/Coursework/Publish/</UpdateUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>

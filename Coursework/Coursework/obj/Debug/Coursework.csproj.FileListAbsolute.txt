@@ -117,7 +117,6 @@ C:\Users\lbk95\Documents\_ASTON\YEAR_4\TERM2\CS3800_AdvancedDatabaseSystems\Cour
 C:\Users\lbk95\Documents\_ASTON\YEAR_4\TERM2\CS3800_AdvancedDatabaseSystems\Coursework\ADB\Coursework\Coursework\obj\Debug\Coursework.Home.resources
 C:\Users\lbk95\Documents\_ASTON\YEAR_4\TERM2\CS3800_AdvancedDatabaseSystems\Coursework\ADB\Coursework\Coursework\obj\Debug\Coursework.About.resources
 C:\Users\lbk95\Documents\_ASTON\YEAR_4\TERM2\CS3800_AdvancedDatabaseSystems\Coursework\ADB\Coursework\Coursework\obj\Debug\Coursework.ResultsViewer.resources
-C:\Users\lbk95\Documents\_ASTON\YEAR_4\TERM2\CS3800_AdvancedDatabaseSystems\Coursework\ADB\Coursework\Coursework\obj\Debug\Coursework.csprojAssemblyReference.cache
 C:\Users\lbk95\Documents\_ASTON\YEAR_4\TERM2\CS3800_AdvancedDatabaseSystems\Coursework\ADB\Coursework\Coursework\bin\Debug\Newtonsoft.Json.dll
 C:\Users\lbk95\Documents\_ASTON\YEAR_4\TERM2\CS3800_AdvancedDatabaseSystems\Coursework\ADB\Coursework\Coursework\bin\Debug\Newtonsoft.Json.xml
 C:\Users\lbk95\Documents\_ASTON\YEAR_4\TERM2\CS3800_AdvancedDatabaseSystems\Coursework\ADB\Coursework\Coursework\obj\Debug\Coursework.SearchByTitle.resources
@@ -126,3 +125,4 @@ C:\Users\lbk95\Documents\_ASTON\YEAR_4\TERM2\CS3800_AdvancedDatabaseSystems\Cour
 C:\Users\lbk95\Documents\_ASTON\YEAR_4\TERM2\CS3800_AdvancedDatabaseSystems\Coursework\ADB\Coursework\Coursework\obj\Debug\Coursework.exe.manifest
 C:\Users\lbk95\Documents\_ASTON\YEAR_4\TERM2\CS3800_AdvancedDatabaseSystems\Coursework\ADB\Coursework\Coursework\obj\Debug\Coursework.application
 C:\Users\lbk95\Documents\_ASTON\YEAR_4\TERM2\CS3800_AdvancedDatabaseSystems\Coursework\ADB\Coursework\Coursework\obj\Debug\Coursework.SearchForActor.resources
+C:\Users\lbk95\Documents\_ASTON\YEAR_4\TERM2\CS3800_AdvancedDatabaseSystems\Coursework\ADB\Coursework\Coursework\obj\Debug\Coursework.csprojAssemblyReference.cache

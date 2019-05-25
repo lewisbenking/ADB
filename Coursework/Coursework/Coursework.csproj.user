@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PublishUrlHistory>C:\Users\lbk95\Documents\_ASTON\YEAR_4\TERM2\CS3800_AdvancedDatabaseSystems\Coursework\ADB\Coursework\</PublishUrlHistory>
-    <InstallUrlHistory />
+    <PublishUrlHistory>C:\Users\lbk95\Documents\_ASTON\YEAR_4\TERM2\CS3800_AdvancedDatabaseSystems\Coursework\ADB\Coursework\Publish\|https://github.com/lewisbenking/ADB/raw/master/Coursework/Publish/|C:\Users\lbk95\Documents\_ASTON\YEAR_4\TERM2\CS3800_AdvancedDatabaseSystems\Coursework\ADB\Coursework\</PublishUrlHistory>
+    <InstallUrlHistory>https://github.com/lewisbenking/ADB/raw/master/Coursework/Publish/</InstallUrlHistory>
     <SupportUrlHistory />
-    <UpdateUrlHistory />
+    <UpdateUrlHistory>https://github.com/lewisbenking/ADB/raw/master/Coursework/Publish/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
     <ErrorReportUrlHistory />
     <FallbackCulture>en-US</FallbackCulture>
